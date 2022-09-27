@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BenkhoudM_LAB_07449_420_DA3_AS.Controllers
 {
-    internal interface IController
+    public interface IController
     {
     }
 }

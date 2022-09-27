@@ -13,18 +13,18 @@ namespace BenkhoudM_LAB_07449_420_DA3_AS.Models
         /// new entry.
         /// </summary>
         /// <returns>The instance with the updated database identity property set.</returns>
-        TModel Insert();
+        void Insert();
         /// <summary>
         /// Populates an instance of <see cref="IModel{TModel}"/> with property values retrieved from
         /// a database entry based on its identity identifier.
         /// </summary>
         /// <returns>The instance with updated property values from the database.</returns>
-        TModel GetById();
+        void GetById();
         /// <summary>
         /// Updates the database entry with values from the instance's properties.
         /// </summary>
         /// <returns>The instance</returns>
-        TModel Update();
+        void Update();
         /// <summary>
         /// Deletes the database entry.
         /// </summary>
